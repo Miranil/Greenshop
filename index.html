@@ -5,45 +5,55 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GREENSHOP</title>
+    <title>GreenShop Header</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-    <div class="text">
-    <span>Login</span>
-    <span>Registration</span>
-   </div>
-
-
-
-    <p>Enter your email and password to register.</p>
-
-    <form name="login" action="#" method="post">
-        <div>
-            <input type="text" name="first_name" placeholder="Username" id="first_name" >
+<header>
+    <div class="menu">
+        <a href="#" class="logo">
+            <img src="img/Logo.svg" alt="logo">
+        </a>
+        <nav>
+            <ul class="list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Plant Care</a>
+                </li>
+                <li>
+                    <a href="#">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="login">Login</a>
+        <div class="clearfix"></div>
+    </div>
+</header>
+<main>
+    <section class="banner">
+        <div class="menu">
+            <article>
+            <h4>Welcome to GreenShop</h4>
+            <h1>
+                Let`s Make a<br>
+                Better <span>Planet</span>
+            </h1>
+            <p>
+                We are an online plant shop offering a wide range of cheap
+                and trendy plants. Use our plants to create an unique Urban
+                Jungle. Order your favorite plants!
+            </p>
+            <a href="#">SHOP NOW</a>
+            </article>
+            <img src="img/banner.svg" alt="banner">
         </div>
-        <div>
-            <input type="text" name="first_name" placeholder="Enter your email address" id="email" >
-        </div>
-        <div>
-            <input type="text"  placeholder="Password" id="password" >
-        </div>
-        <div>
-            <input type="text"  placeholder="Confirm password" id="confirm" >
-        </div>
-
-    <button type="submit">Register</button>
-
-
-            <p class="text-2">Or register with</p>
-
-
-            <a href="https://myaccount.google.com/" title="Google" target="_blank" >Continue with Google</a>
-
-            <a href="https://www.facebook.com/" title="facebook" target="_blank" >Continue with Facebook</a>
-        
-    </form>
-</div>
+    </section>
+</main>
+<footer></footer>
 </body>
 </html>

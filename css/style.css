@@ -85,3 +85,136 @@ input{
     box-sizing: border-box;
     margin-bottom: 14px
 }
+.menu{
+    max-width: 1211px;
+    margin: auto;
+}
+header{
+    padding-top: 31px;
+}
+header nav, header nav li, header .logo{
+    display: inline-block;
+    line-height: 123%;
+    text-align: center;
+}
+header ul{
+    list-style: none;
+}
+header .logo{
+    margin-right: 229px;
+    float: left;
+}
+header .login{
+    margin-left: 370px;
+}
+header nav li{
+    margin-right: 50px;
+}
+header nav li:last-of-type{
+    margin-right: 0;
+}
+header nav li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+header nav li:after{
+    height: 3px;
+    background-color: transparent;
+    width: 100%;
+    content: "";
+    display: block;
+    margin-top: 22px;
+}
+header nav li:hover:after{
+    background-color: #46a358;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: #46a358;
+    text-align: center;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+}
+.login:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Login.svg");
+    width: 20px;
+    height: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.banner .menu{
+    background: linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%);
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner article{
+    max-width: 557px;
+    display: inline-block;
+    margin-right: 93px;
+}
+.banner h4{
+    width: 205px;
+    height: 16px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    color: #3d3d3d;
+}
+.banner h1{
+    width: 530px;
+    height: 140px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-bottom: 5px;
+}
+.banner h1 span{
+    color: #46a358;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.banner a{
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background: #46a358;
+    text-align: center;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
