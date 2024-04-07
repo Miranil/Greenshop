@@ -91,6 +91,7 @@ input{
 }
 header{
     padding-top: 31px;
+    padding-bottom: 18px;
 }
 header nav, header nav li, header .logo{
     display: inline-block;
