@@ -106,7 +106,7 @@ header .logo{
     float: left;
 }
 header .login{
-    margin-left: 370px;
+
 }
 header nav li{
     margin-right: 50px;
@@ -135,7 +135,6 @@ a{
 }
 .login{
     box-sizing: border-box;
-    width: 100px;
     height: 35px;
     border-radius: 5px;
     background: #46a358;
@@ -145,9 +144,11 @@ a{
     font-size: 16px;
     line-height: 100%;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     float: right;
+    display: inline-flex;
+    align-items: center;
 }
 .login:before{
     content: "";
@@ -155,6 +156,8 @@ a{
     background-image: url("../img/Login.svg");
     width: 20px;
     height: 20px;
+    margin-right: 5px;
+
 }
 .clearfix{
     clear: both;
@@ -170,6 +173,7 @@ a{
     max-width: 557px;
     display: inline-block;
     margin-right: 93px;
+    padding-left: 50px;
 }
 .banner h4{
     width: 205px;
@@ -212,7 +216,7 @@ a{
     font-size: 16px;
     line-height: 100%;
     color: #fff;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
 }
 
