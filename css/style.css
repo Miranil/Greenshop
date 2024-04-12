@@ -121,8 +121,7 @@ input{
 .menu{
     max-width: 1211px;
     margin: auto;
-    border-bottom: solid 1px grey;
-
+    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
 }
 header{
     padding-top: 31px;
@@ -261,7 +260,9 @@ a{
     cursor: pointer;
     font-family: 'cera_proregular';
 }
-
+.banner .menu{
+    border-bottom: none;
+}
 
 
 
