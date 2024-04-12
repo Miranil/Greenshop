@@ -31,6 +31,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'cera_probold';
+    src: url('../fonts/cerapro-bold-webfont.eot');
+    src: url('../fonts/cerapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-bold-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-bold-webfont.woff') format('woff'),
+    url('../fonts/cerapro-bold-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-bold-webfont.svg#cera_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -67,6 +79,7 @@ input{
     padding-right: 12px;
     border-right: 1px solid black;
     display: inline-block;
+
 }
 .container span:last-of-type{
     font-weight: 500;
@@ -134,6 +147,7 @@ header nav, header nav li, header .logo{
 }
 header ul{
     list-style: none;
+    font-family: 'cera_proregular';
 }
 header .logo{
     margin-right: 229px;
@@ -153,7 +167,7 @@ header nav li a{
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    font-family: 'cera_proregular';
+
 }
 header nav li:after{
     height: 3px;
@@ -162,9 +176,22 @@ header nav li:after{
     content: "";
     display: block;
     margin-top: 22px;
+
 }
 header nav li:hover:after{
     background-color: #46a358;
+}
+header nav li{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+header nav li:hover{
+    font-family: 'cera_probold';
+    font-weight: 700;
+    font-size: 16px;
+    color: #3d3d3d;
 }
 a{
     text-decoration: none;
@@ -176,7 +203,7 @@ a{
     background: #46a358;
     text-align: center;
     border: none;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     color: #fff;
@@ -185,7 +212,7 @@ a{
     float: right;
     display: inline-flex;
     align-items: center;
-    font-family: 'cera_proregular';
+    font-family: 'cera_promedium';
 }
 .login:before{
     content: "";
@@ -252,13 +279,13 @@ a{
     background: #46a358;
     text-align: center;
     border: none;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 100%;
     color: #fff;
     padding: 8px;
     cursor: pointer;
-    font-family: 'cera_proregular';
+    font-family: 'cera_probold';
 }
 .banner .menu{
     border-bottom: none;
