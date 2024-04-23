@@ -406,16 +406,37 @@ a{
     color: #3d3d3d;
     font-family: 'cera_proregular';
     margin-bottom: 6px;
-
-
 }
-.list_4 span{
+
+.categories .right_content article span{
     font-weight: 700;
     font-size: 18px;
     line-height: 107%;
     color: #46a358;
     font-family: 'cera_probold';
     display: block;
+    max-width: 66px;
+}
+.categories .right_content article .price{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #a5a5a5;
+    font-family: 'cera_proregular';
+    position: relative;
+    display: block;
+    max-width: 66px;
+
+}
+.categories .right_content article .price:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    background-color: #a5a5a5;
+    width: 100%;
+    top: 8px;
+
 }
 .list_4 article img{
     margin-bottom: 26px;
@@ -424,6 +445,28 @@ a{
 .list_4 article{
     margin-bottom: 65px;
     max-height: 350px;
+
+}
+.categories .right_content article{
+    max-width: 258px;
+    margin-bottom: 70px;
+    border-top: solid 1px transparent;
+    position: relative;
+}
+.categories .right_content article:hover{
+    border-top: solid 1px #46a358;
+}
+.categories .right_content article .sale{
+    position: absolute;
+    left: 0;
+    top: 14px;
+    background-color: #46a358;
+    padding: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    font-family: 'cera_promedium';
 }
 
 
