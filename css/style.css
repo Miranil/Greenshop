@@ -415,7 +415,7 @@ a{
     color: #46a358;
     font-family: 'cera_probold';
     display: block;
-    max-width: 66px;
+
 }
 .categories .right_content article .price{
     font-weight: 400;
@@ -424,8 +424,8 @@ a{
     color: #a5a5a5;
     font-family: 'cera_proregular';
     position: relative;
-    display: block;
-    max-width: 66px;
+    display: inline-block;
+    margin-left: 16px;
 
 }
 .categories .right_content article .price:after{
@@ -443,7 +443,6 @@ a{
     display: block;
 }
 .list_4 article{
-    margin-bottom: 65px;
     max-height: 350px;
 
 }
@@ -467,6 +466,28 @@ a{
     line-height: 100%;
     color: #fff;
     font-family: 'cera_promedium';
+}
+.categories .right_content article:hover ul{
+    opacity: 1;
+    transition: 0.3s;
+    background-color: #ffffff;
+}
+.categories .right_content article ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 57px;
+    left: calc(50% - 62px);
+    width: 125px;
+    opacity: 0;
+}
+.categories .right_content article ul li{
+    width: 20px;
+    height: 20px;
+    margin-right: 26px;
+}
+.categories .right_content article ul li:last-of-type{
+    margin-right: 0;
 }
 
 
