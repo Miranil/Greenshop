@@ -185,7 +185,7 @@ header nav ul .dropdown_2{
     max-height: 215px;
     max-width: 178px;
     position: absolute;
-    top: 0px;
+    top: -8px;
     right: -178px;
     height: 0;
     opacity: 0;
@@ -201,9 +201,7 @@ header nav ul li.drop_2:hover .dropdown_2{
     transition: 0.3s;
 
 }
-.dropdown li a{
-    border: none;
-}
+
 header nav ul .dropdown li{
     display: block;
     width: 100%;
@@ -212,6 +210,13 @@ header nav ul .dropdown li{
 header nav ul .dropdown li:hover{
     background-color: #1A712A;
     max-height: 20px;
+}
+header nav ul .dropdown li a:hover{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'cera_probold';
+
 }
 header nav ul li.drop, header nav ul li.drop_2{
     position: relative;
@@ -234,10 +239,8 @@ header nav li a:after{
     margin-top: 22px;
 
 }
-header nav li a:hover:after .dropdown{
-    background-color: transparent;
-    height: 0;
-
+header nav li ul li a:after{
+    display: none;
 }
 header nav li a:hover:after{
     background-color: #46a358;
