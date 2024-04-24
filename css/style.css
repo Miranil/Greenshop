@@ -159,6 +159,7 @@ header .login{
 header nav li{
     margin-right: 50px;
     margin-top: 8px;
+
 }
 header nav li:last-of-type{
     margin-right: 0;
@@ -169,7 +170,62 @@ header nav li a{
     color: #3d3d3d;
 
 }
-header nav li:after{
+header nav ul .dropdown{
+    display: block;
+    background-color: #EDF6EE;
+    max-height: 143px;
+    position: absolute;
+    top: 46px;
+    height: 0;
+    opacity: 0;
+}
+header nav ul .dropdown_2{
+    display: block;
+    background-color: #EDF6EE;
+    max-height: 215px;
+    max-width: 178px;
+    position: absolute;
+    top: 0px;
+    right: -178px;
+    height: 0;
+    opacity: 0;
+}
+header nav ul li.drop:hover .dropdown{
+    opacity: 1;
+    height: auto;
+    transition: 0.3s;
+}
+header nav ul li.drop_2:hover .dropdown_2{
+    opacity: 1;
+    height: auto;
+    transition: 0.3s;
+
+}
+.dropdown li a{
+    border: none;
+}
+header nav ul .dropdown li{
+    display: block;
+    width: 100%;
+    max-height: 20px;
+}
+header nav ul .dropdown li:hover{
+    background-color: #1A712A;
+    max-height: 20px;
+}
+header nav ul li.drop, header nav ul li.drop_2{
+    position: relative;
+}
+header nav ul .dropdown li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    display: flex;
+    line-height: 20px;
+}
+
+header nav li a:after{
     height: 3px;
     background-color: transparent;
     width: 100%;
@@ -178,7 +234,12 @@ header nav li:after{
     margin-top: 22px;
 
 }
-header nav li:hover:after{
+header nav li a:hover:after .dropdown{
+    background-color: transparent;
+    height: 0;
+
+}
+header nav li a:hover:after{
     background-color: #46a358;
 }
 header nav li{
