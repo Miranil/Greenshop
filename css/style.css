@@ -570,3 +570,49 @@ a{
 }
 
 
+.categories .pagination{
+    display: flex;
+    justify-content: right;
+    max-width: 1211px;
+    margin: auto;
+    border-bottom: 0.30px solid transparent;
+}
+.categories .pagination ul{
+    width: 240px;
+    height: 35px;
+
+}
+.categories .pagination ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    list-style: none;
+    margin-right: 10px;
+
+}
+.categories .pagination ul li:last-of-type{
+    margin-right: 0;
+}
+.categories .pagination ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+}
+.categories .pagination ul li:hover{
+    background: #46a358;
+
+}
+.categories .pagination ul li:hover a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    font-family: 'cera_probold';
+}
+.categories .pagination ul li:hover path{
+    stroke: #fff;
+}
