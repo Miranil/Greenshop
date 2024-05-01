@@ -140,7 +140,6 @@ input{
 header{
     padding-top: 31px;
     padding-bottom: 18px;
-
 }
 header .menu{
     display: flex;
@@ -150,16 +149,12 @@ header nav, header nav li, header .logo{
     display: inline-block;
     line-height: 123%;
     text-align: center;
-
 }
 header ul{
     list-style: none;
     font-family: 'cera_proregular';
 }
-
-
 header nav li{
-
     margin-top: 8px;
     margin-right: 50px;
     display: inline-block;
@@ -238,6 +233,9 @@ header nav ul .dropdown li a:hover{
     color: #fff;
     font-family: 'cera_probold';
 
+}
+header nav ul .dropdown li a:last-of-type:after{
+    
 }
 header nav ul li.drop, header nav ul li.drop_2{
     position: relative;
@@ -481,9 +479,7 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-
 .list_4 a{
     font-weight: 400;
     font-size: 16px;
@@ -492,7 +488,6 @@ a{
     font-family: 'cera_proregular';
     margin-bottom: 6px;
 }
-
 .categories .right_content article span{
     font-weight: 700;
     font-size: 18px;
@@ -500,7 +495,6 @@ a{
     color: #46a358;
     font-family: 'cera_probold';
     display: block;
-
 }
 .categories .right_content article .price{
     font-weight: 400;
@@ -511,7 +505,6 @@ a{
     position: relative;
     display: inline-block;
     margin-left: 16px;
-
 }
 .categories .right_content article .price:after{
     content: "";
@@ -521,7 +514,6 @@ a{
     background-color: #a5a5a5;
     width: 100%;
     top: 8px;
-
 }
 .list_4 article img{
     margin-bottom: 26px;
@@ -529,7 +521,6 @@ a{
 }
 .list_4 article{
     max-height: 350px;
-
 }
 .categories .right_content article{
     max-width: 258px;
@@ -574,8 +565,6 @@ a{
 .categories .right_content article ul li:last-of-type{
     margin-right: 0;
 }
-
-
 .categories .pagination{
     display: flex;
     justify-content: right;
@@ -584,7 +573,7 @@ a{
     border-bottom: 0.30px solid transparent;
 }
 .categories .pagination ul{
-
+    margin-bottom: 94px;
     height: 35px;
 
 }
@@ -623,3 +612,107 @@ a{
 .categories .pagination ul li:hover path{
     stroke: #fff;
 }
+.blog .card{
+    max-width: 1211px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 115px;
+}
+.blog .card .left_card{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.blog .card .right_card{
+    display: flex;
+    align-items: center;
+}
+.blog .card article{
+    max-width: 292px;
+    text-align: right;
+}
+.blog .card article h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    padding-left: 142px;
+    margin-bottom: 9px;
+    padding-top: 37px;
+}
+.blog .card article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    font-family: 'cera_proregular';
+    max-width: 292px;
+    margin-bottom: 25px;
+}
+.blog .card article a{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #46a358;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'cera_probold';
+    margin-bottom: 46px;
+}
+.blog .blog_card{
+    max-width: 1211px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.blog .blog_card article{
+    display: block;
+    align-items: center;
+    max-width: 557px;
+}
+.blog .blog_card article h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+
+}
+.blog .blog_card article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    font-family: 'cera_proregular';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
