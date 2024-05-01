@@ -666,35 +666,44 @@ a{
     margin-bottom: 46px;
 }
 .blog .blog_card{
-    max-width: 1211px;
-    margin: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.blog .blog_card article{
-    display: block;
-    align-items: center;
-    max-width: 557px;
+.blog .blog_card .blog_text{
+    padding-left: 35px;
 }
-.blog .blog_card article h4{
+.blog .blog_card .blog_text h4{
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
     text-transform: uppercase;
+    text-align: center;
     color: #3d3d3d;
     font-family: 'cera_probold';
-
+    padding-bottom: 15px;
 }
-.blog .blog_card article p{
+.blog .blog_card .blog_text p{
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     color: #727272;
     font-family: 'cera_proregular';
-
+    padding-bottom: 35px;
 }
-
-
+.blog .blog_card .blog_card_2{
+    display: flex;
+    justify-content: center;
+}
+.blog .blog_card .blog_card_2 article{
+    padding-right: 43px;
+}
+.blog .blog_card .blog_card_2 article:last-of-type{
+    padding-right: 0;
+}
+.blog .blog_card .blog_card_2 article img{
+    padding-bottom: 8px;
+}
 
 
 
