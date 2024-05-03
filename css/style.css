@@ -694,22 +694,111 @@ a{
 .blog .blog_card .blog_card_2{
     display: flex;
     justify-content: center;
+    margin-bottom: 250px;
+
 }
 .blog .blog_card .blog_card_2 article{
     padding-right: 43px;
+    max-height: 196px;
+    max-width: 268px;
+
 }
 .blog .blog_card .blog_card_2 article:last-of-type{
     padding-right: 0;
 }
 .blog .blog_card .blog_card_2 article img{
     padding-bottom: 8px;
+    display: flex;
+
 }
+.blog .blog_card .blog_card_2 article .blog_text_2{
+    max-width: 242px;
+    max-height: 146px;
+    margin-left: 26px;
 
 
+}
+.blog .blog_card .blog_card_2 article .blog_text_2 span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    font-family: 'cera_promedium';
+    padding-bottom: 4px;
+}
+.blog .blog_card .blog_card_2 article .blog_text_2 h4{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 125%;
+    color: #3d3d3d;
+    text-transform: capitalize;
+    font-family: 'cera_probold';
+    padding-bottom: 4px;
+}
+.blog .blog_card .blog_card_2 article .blog_text_2 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    font-family: 'cera_proregular';
+    padding-bottom: 4px;
+}
+.blog .blog_card .blog_card_2 article .blog_text_2 a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    font-family: 'cera_promedium';
+    padding-bottom: 9px;
+}
+.blog .blog_card .blog_card_2 article .blog_text_2 a:hover{
+    color: #46a358;
+}
+footer {
+    max-width: 1200px;
+    max-height: 610px;
 
+}
+footer .news{
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+}
+footer .news article{
+    max-height: 202px;
+    max-width: 204px;
+    padding-right: 61px;
+}
+footer .news article:last-of-type{
+    max-width: 354px;
+    max-height: 202px;
+}
+footer .news article img{
+    height: 95px;
+    max-width: 80px;
+    padding-bottom: 15px;
+}
+footer .news article div{
+    max-width: 204px;
+    max-height: 91px;
 
-
-
+}
+footer .news article h4{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+    padding-bottom: 10px;
+}
+footer .news article p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    font-family: 'cera_proregular';
+    padding-bottom: 24px;
+}
 
 
 
