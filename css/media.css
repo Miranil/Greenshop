@@ -9,5 +9,114 @@
     .menu .list{
         margin-right: 15px;
     }
+    .menu{
+        position: inherit;
+        right: inherit;
+    }
+    .banner .menu{
+        display: block;
+    }
+    .categories .left_sidebar h4{
+        display: block;
+    }
+    .categories .left_sidebar img{
+        margin-left: 0;
+    }
+    .blog .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .blog .blog_card .blog_card_2{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    footer .news{
+        flex-wrap: wrap-reverse;
+        margin-bottom: 79px;
+    }
+    footer .contact ul{
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    footer .contact ul li{
+        padding-right: 33px;
+    }
+    footer .guide{
+        flex-wrap: wrap;
+        max-height: none;
+        margin-left: 10px;
+    }
+    .blog .blog_card .blog_card_2 article{
+        max-height: inherit;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .menu .list{
+        display: none;
+    }
+    .banner .menu article h1{
+        font-size: 41px;
+    }
+    .banner .menu img{
+        width: 100%;
+        display: block;
+    }
+    .categories .right_content .flex_2{
+        margin-right: 20px;
+    }
+    .list_4{
+        justify-content: space-around;
+    }
+    .categories .pagination{
+        margin-right: 20px;
+    }
+    .blog .card{
+        justify-content: center;
+    }
+    footer .contact ul li{
+        padding-right: 0;
+    }
 
+}
+@media only screen and (max-width: 460px){
+    .blog .card .left_card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .blog .card .right_card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .blog .blog_card .blog_text{
+        padding-left: 3px;
+    }
+    footer .news article div{
+        max-height: 70px;
+    }
+    footer .contact ul li{
+        padding-right: 44px;
+    }
+    footer .guide{
+        margin-left: 0;
+    }
+    footer .guide .guide_4{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 376px){
+    header .menu .search_1 .vector {
+        margin-right: 13px;
+    }
+    .list_3 {
+        display: inline-block;
+        list-style: none;
+    }
+    footer .contact{
+        max-height: inherit;
+    }
+    footer .contact ul li{
+        padding-bottom: 15px;
+        padding-left: 18px;
+    }
 }
