@@ -940,6 +940,7 @@ a{
           max-width: 242px;
           max-height: 146px;
           margin-left: 26px;
+          margin-bottom: 60px;
           span{
             font-weight: 500;
             font-size: 14px;
@@ -989,6 +990,7 @@ footer {
     background-color: #fbfbfb;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
     article{
       max-height: 202px;
       max-width: 204px;
@@ -1066,7 +1068,7 @@ footer {
 }
 footer{
   .contact{
-    max-height: 88px;
+    height: 58px;
     background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
     margin: auto;
     ul{
