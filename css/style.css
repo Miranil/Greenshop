@@ -638,5 +638,53 @@ footer .guide_5 span{
     margin-bottom: 22px;
 }
 
+.faq .acord {
+    max-width: 1200px;
+    margin: auto;
+}
+.faq .ui-accordion .ui-accordion-header {
+    border-radius: 22px;
+    padding: 20px 16px;
+    background-color: transparent;
+    border: solid 2px #46a358;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: antiquewhite;
+    border-bottom: none;
+    border-radius: 22px 22px 0 0;
+}
+.faq .ui-state-active, .faq .ui-widget-content .ui-state-active, .faq .ui-widget-header .ui-state-active, .faq a.ui-button:active, .faq .ui-button:active, .faq .ui-button.ui-state-active:hover {
+    border: solid 2px #46a358;
+    color: black;
+}
+.faq .ui-accordion .ui-accordion-content {
+    border: solid 2px #46a358;
+    background-color: antiquewhite;
+    border-radius: 0 0 22px 22px;
+    overflow: visible;
+    border-top: none;
+}
 
-
+.faq .ui-accordion .ui-accordion-header .ui-icon{
+    position: absolute;
+    right: 20px;
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+}
+.faq .ui-accordion .ui-accordion-header.ui-icon:after{
+    content: "";
+    display: block!important;
+    position: absolute;
+    top: 50%;
+    right: 44px;
+    height: 20px;
+    width: 20px;
+    color: black;
+    transform: rotate(0);
+    transition: transform 2s;
+    background-image: url("https://www.limitlessx.com/cdn/shop/t/48/assets/chevron-down.svg");
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active.ui-icon:after{
+    transform: rotate(180deg);
+}
