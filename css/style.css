@@ -672,7 +672,7 @@ footer .guide_5 span{
     background-position: 0;
     text-indent: 0;
 }
-.faq .ui-accordion .ui-accordion-header.ui-icon:after{
+.faq .ui-accordion .ui-accordion-header .ui-icon:after{
     content: "";
     display: block!important;
     position: absolute;
@@ -685,6 +685,6 @@ footer .guide_5 span{
     transition: transform 2s;
     background-image: url("https://www.limitlessx.com/cdn/shop/t/48/assets/chevron-down.svg");
 }
-.faq .ui-accordion .ui-accordion-header.ui-state-active.ui-icon:after{
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:after{
     transform: rotate(180deg);
 }
